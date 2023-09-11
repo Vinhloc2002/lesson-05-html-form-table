@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* table, tr, td {
+        border: 1px solid black ;
+        border-collapse :collapse;
+      } */
+      .bgred {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th colspan="2" class="bgred">
+          <h1>
+            <p><span style="color: white">SỞ THÍCH CỦA BẠN</span></p>
+          </h1>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <strong><span style="color: navy">Họ và tên &nbsp; </span> </strong>
+        </td>
+        <td><input type="text" name="yourname" size="20" /></td>
+      </tr>
+      <tr>
+        <td>
+          <strong
+            ><span style="color: navy">
+              &emsp; &nbsp; Email &nbsp;
+            </span></strong
+          >
+        </td>
+        <td><input type="text" name="gmail" size="20" /></td>
+      </tr>
+      <tr>
+        <td>
+          <strong><p>sở thích</p></strong>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <input type="checkbox" name="gender" id="Thể thao" /><span
+                  style="color: red"
+                  >Thể thao</span
+                >
+              </td>
+              <td>
+                <input type="checkbox" name="gender" id="âm nhạc" />
+                <span style="color: red">Âm nhạc</span>
+              </td>
+              <td>
+                <input type="checkbox" name="gender" id="Đọc sách" /><span
+                  style="color: red"
+                  >Đọc sách</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="gender" id="lướt web" /><span
+                  style="color: red"
+                  >Lướt web</span
+                >
+              </td>
+              <td>
+                <input type="checkbox" name="gender" id="chơi game" /><span
+                  style="color: red"
+                  >chơi game</span
+                >
+              </td>
+              <td>
+                <input type="checkbox" name="gender" id="Điện ảnh" /><span
+                  style="color: red"
+                  >Điện ảnh</span
+                >
+                <br />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="gender" id="Du lịch" />
+                <span style="color: red">Du lịch</span>
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <input type="button" name="sumbmitform" value="gửi thông tin" />
+          <input
+            type="button"
+            name="Resetform"
+            value="nhập lại"
+            onclick="location.reload()"
+          />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
